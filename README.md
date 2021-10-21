@@ -38,6 +38,9 @@ After all these steps completed, it will initialize a land with the given measur
 * R (Turn Right): Turns the rover right.
 * M (Move): Move to the next grid on the current route. For example: a rover whose location is (0,0) with route **N** will move to (0,1) with a single **M**.
 
+Here's a screenshot for initialization and commands.
+![image](https://user-images.githubusercontent.com/88496167/138256728-82826b57-ddba-4147-bbe9-b0149a44f7ec.png)
+
 Also, please note that the commands **L** and **R** won't change the location, they have just affect on the rover's route. To sum up all the scenario, we can say:
 
 * On the initialization, user enters the width and length for the land (if anything is out of bound, then the user is warned and step is repeated),
